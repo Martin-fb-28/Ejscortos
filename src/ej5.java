@@ -18,13 +18,14 @@ public class ej5 {
             } else if (numeropropuesto < numero) {
                 System.out.println("El número que has dicho es más pequeño ");
                 vecesintento++;
-            } else if (numeropropuesto == numero) {
+            } else {
                 System.out.println("Enhorabuena, lo has acertado ");
             }
         }
-
+    sc.close();
 
     }
 }
+
 
 
